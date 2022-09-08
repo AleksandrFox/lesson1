@@ -1,4 +1,3 @@
-from re import A
 import turtle
 import math
 import random
@@ -12,12 +11,12 @@ Albert.color('white')
 
 rotate = 360
 
-def drawCircles(t, size):
+def drawCircles(t, size):  # type: ignore
     for _ in range(10):
         t.circle(size)
         size = size - 4
 
-def drawSpecial(t, size, repeat):
+def drawSpecial(t, size, repeat):  # type: ignore
     for _ in range(repeat):
         drawCircles(t, size)
         t.right(360 / repeat)
@@ -29,12 +28,12 @@ Steve.speed(0)
 Steve.color('yellow')
 rotate = 90
 
-def drawCircles(t, size):
+def drawCircles(t, size):  # type: ignore
     for _ in range(4):
         t.circle(size)
         size = size - 10
 
-def drawSpecial(t, size, repeat):
+def drawSpecial(t, size, repeat):  # type: ignore
     for _ in range(repeat):
         drawCircles(t, size)
         t.right(360 / repeat)
@@ -46,12 +45,12 @@ Barry.speed(0)
 Barry.color('blue')
 rotate = 80
 
-def drawCircles(t, size):
+def drawCircles(t, size):  # type: ignore
     for _ in range(4):
         t.circle(size)
         size = size - 5
 
-def drawSpecial(t, size, repeat):
+def drawSpecial(t, size, repeat):  # type: ignore
     for _ in range(repeat):
         drawCircles(t, size)
         t.right(360 / repeat)
@@ -63,12 +62,12 @@ Terry.speed(0)
 Terry.color('orange')
 rotate = 90
 
-def drawCircles(t, size):
+def drawCircles(t, size):  # type: ignore
     for _ in range(4):
         t.circle(size)
         size = size - 19
 
-def drawSpecial(t, size, repeat):
+def drawSpecial(t, size, repeat):  # type: ignore
     for _ in range(repeat):
         drawCircles(t, size)
         t.right(360 / repeat)
