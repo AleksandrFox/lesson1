@@ -1,6 +1,3 @@
-from re import A
-
-
 def sold_sale(sold, sale):
     sold = abs(sold)
     sale = abs(sale)
