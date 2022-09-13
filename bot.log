@@ -1,0 +1,24 @@
+2022-09-12 17:53:18,936 -INFO - bot starting
+2022-09-12 17:53:18,936 -INFO - Scheduler started
+2022-09-12 17:53:19,341 -INFO - Вызван /start
+2022-09-12 17:53:19,647 -INFO - Вызван /start
+2022-09-12 17:53:28,188 -INFO - Вызван /start
+2022-09-12 18:47:32,270 -INFO - Received signal 2 (SIGINT), stopping...
+2022-09-12 18:47:32,271 -INFO - Scheduler has been shut down
+2022-09-12 18:47:32,775 -WARNING - Exiting immediately!
+2022-09-13 07:28:51,489 -INFO - bot starting
+2022-09-13 07:28:51,512 -INFO - Scheduler started
+2022-09-13 07:29:40,968 -INFO - Received signal 2 (SIGINT), stopping...
+2022-09-13 07:29:40,969 -INFO - Scheduler has been shut down
+2022-09-13 07:29:41,640 -WARNING - Exiting immediately!
+2022-09-13 07:29:53,821 -INFO - bot starting
+2022-09-13 07:29:53,821 -INFO - Scheduler started
+2022-09-13 07:29:58,898 -INFO - Received signal 2 (SIGINT), stopping...
+2022-09-13 07:29:58,899 -INFO - Scheduler has been shut down
+2022-09-13 07:30:04,210 -WARNING - Exiting immediately!
+2022-09-13 07:30:18,935 -INFO - bot starting
+2022-09-13 07:30:18,935 -INFO - Scheduler started
+2022-09-13 07:31:24,792 -INFO - Вызван /start
+2022-09-13 07:31:28,680 -INFO - Вызван /start
+2022-09-13 07:38:11,227 -INFO - Received signal 2 (SIGINT), stopping...
+2022-09-13 07:38:11,228 -INFO - Scheduler has been shut down
