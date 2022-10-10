@@ -1,13 +1,16 @@
-def sold_sale(sold, sale):
-    sold = abs(sold)
-    sale = abs(sale)
-    return sold if sale >= 100 else sold - sold * sale / 100
-
-one = 100
-two = 200
-three = 300
-sale = 10
-print(sold_sale(one, sale))
-print(sold_sale(two, sale))
-print(sold_sale(three, sale))
-print(sold_sale(-1000, 99))
+name_pople = ['Вася','Петя','Валера','Саша','Даша']
+def find_person(name_user):
+    x = 0
+    while name_pople:
+        name = name_pople.pop()
+        if name == name_user:
+            print(f'{name}, нашелся')
+            x += 1
+        else:
+            print(name)
+    if x == 0:
+        user_name = list(name_user)
+        user_name[-1] = 'у'
+        user_name = ''.join(user_name)
+        print(f'{user_name}, не нашли')
+find_person(input('Кого вы хотите найти?: '))  # type: ignoreСа

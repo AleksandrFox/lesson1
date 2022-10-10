@@ -1,6 +1,6 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import logging
-       
+
 logging.basicConfig(format=u'%(asctime)s -%(levelname)s - %(message)s', # формат вывода 
                     level=logging.INFO, # что выводится 
                     filename='bot.log'  # имя файла, создается
