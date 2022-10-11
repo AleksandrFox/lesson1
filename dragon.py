@@ -32,9 +32,9 @@ def checkCave(chosenCave):
         print('...моментально вас съедает!')
 
 playAgain = 'да'
-while playAgain in {'да', 'д'}:
+while playAgain in {'да', 'д', 'lf', 'l'}:
     displayIntro()
     caveNumber = chooseCave()
     checkCave(caveNumber)
     print('Попытаете удачу еще раз? (да или нет)')
-    playAgain = input()
+    playAgain = input() 
