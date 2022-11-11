@@ -1,16 +1,10 @@
-name_pople = ['Вася','Петя','Валера','Саша','Даша']
-def find_person(name_user):
-    x = 0
-    while name_pople:
-        name = name_pople.pop()
-        if name == name_user:
-            print(f'{name}, нашелся')
-            x += 1
-        else:
-            print(name)
-    if x == 0:
-        user_name = list(name_user)
-        user_name[-1] = 'у'
-        user_name = ''.join(user_name)
-        print(f'{user_name}, не нашли')
-find_person(input('Кого вы хотите найти?: '))  # type: ignoreСа
+game = dict(a = '1', b = '2', c = '3', d = '4', e = '5', f = '6', g = '7', h = '8', j = '9', )
+jrt = True
+while jrt:
+    z = input('   :  ')
+    for item in game.items():
+        if z == item[1]:
+            game[item[0]] = 'X' 
+            jrt = False
+            break
+print(game)

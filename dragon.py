@@ -37,4 +37,4 @@ while playAgain in {'да', 'д', 'lf', 'l'}:
     caveNumber = chooseCave()
     checkCave(caveNumber)
     print('Попытаете удачу еще раз? (да или нет)')
-    playAgain = input() 
+    playAgain = input().lower()
